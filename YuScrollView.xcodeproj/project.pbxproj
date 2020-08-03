@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F870E4824D41CC100100835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F870E4724D41CC100100835 /* AppDelegate.swift */; };
+		3F870E4C24D41CC100100835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F870E4B24D41CC100100835 /* ViewController.swift */; };
+		3F870E4F24D41CC100100835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F870E4D24D41CC100100835 /* Main.storyboard */; };
+		3F870E5124D41CC200100835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F870E5024D41CC200100835 /* Assets.xcassets */; };
+		3F870E5424D41CC200100835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F870E5224D41CC200100835 /* LaunchScreen.storyboard */; };
+		3F870E5F24D41CC200100835 /* YuScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F870E5E24D41CC200100835 /* YuScrollViewTests.swift */; };
+		3F870E6A24D41CC200100835 /* YuScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F870E6924D41CC200100835 /* YuScrollViewUITests.swift */; };
+		3F870E7824D41CDB00100835 /* YuScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F870E7724D41CDB00100835 /* YuScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F870E5B24D41CC200100835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F870E3C24D41CC100100835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F870E4324D41CC100100835;
+			remoteInfo = YuScrollView;
+		};
+		3F870E6624D41CC200100835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F870E3C24D41CC100100835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F870E4324D41CC100100835;
+			remoteInfo = YuScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F870E4424D41CC100100835 /* YuScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F870E4724D41CC100100835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F870E4B24D41CC100100835 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F870E4E24D41CC100100835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F870E5024D41CC200100835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F870E5324D41CC200100835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F870E5524D41CC200100835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F870E5A24D41CC200100835 /* YuScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F870E5E24D41CC200100835 /* YuScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuScrollViewTests.swift; sourceTree = "<group>"; };
+		3F870E6024D41CC200100835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F870E6524D41CC200100835 /* YuScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F870E6924D41CC200100835 /* YuScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuScrollViewUITests.swift; sourceTree = "<group>"; };
+		3F870E6B24D41CC200100835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F870E7724D41CDB00100835 /* YuScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F870E4124D41CC100100835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F870E5724D41CC200100835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F870E6224D41CC200100835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F870E3B24D41CC100100835 = {
+			isa = PBXGroup;
+			children = (
+				3F870E4624D41CC100100835 /* YuScrollView */,
+				3F870E5D24D41CC200100835 /* YuScrollViewTests */,
+				3F870E6824D41CC200100835 /* YuScrollViewUITests */,
+				3F870E4524D41CC100100835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F870E4524D41CC100100835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F870E4424D41CC100100835 /* YuScrollView.app */,
+				3F870E5A24D41CC200100835 /* YuScrollViewTests.xctest */,
+				3F870E6524D41CC200100835 /* YuScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F870E4624D41CC100100835 /* YuScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3F870E4724D41CC100100835 /* AppDelegate.swift */,
+				3F870E4B24D41CC100100835 /* ViewController.swift */,
+				3F870E7724D41CDB00100835 /* YuScrollView.swift */,
+				3F870E4D24D41CC100100835 /* Main.storyboard */,
+				3F870E5024D41CC200100835 /* Assets.xcassets */,
+				3F870E5224D41CC200100835 /* LaunchScreen.storyboard */,
+				3F870E5524D41CC200100835 /* Info.plist */,
+			);
+			path = YuScrollView;
+			sourceTree = "<group>";
+		};
+		3F870E5D24D41CC200100835 /* YuScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F870E5E24D41CC200100835 /* YuScrollViewTests.swift */,
+				3F870E6024D41CC200100835 /* Info.plist */,
+			);
+			path = YuScrollViewTests;
+			sourceTree = "<group>";
+		};
+		3F870E6824D41CC200100835 /* YuScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F870E6924D41CC200100835 /* YuScrollViewUITests.swift */,
+				3F870E6B24D41CC200100835 /* Info.plist */,
+			);
+			path = YuScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F870E4324D41CC100100835 /* YuScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F870E6E24D41CC200100835 /* Build configuration list for PBXNativeTarget "YuScrollView" */;
+			buildPhases = (
+				3F870E4024D41CC100100835 /* Sources */,
+				3F870E4124D41CC100100835 /* Frameworks */,
+				3F870E4224D41CC100100835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuScrollView;
+			productName = YuScrollView;
+			productReference = 3F870E4424D41CC100100835 /* YuScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F870E5924D41CC200100835 /* YuScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F870E7124D41CC200100835 /* Build configuration list for PBXNativeTarget "YuScrollViewTests" */;
+			buildPhases = (
+				3F870E5624D41CC200100835 /* Sources */,
+				3F870E5724D41CC200100835 /* Frameworks */,
+				3F870E5824D41CC200100835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F870E5C24D41CC200100835 /* PBXTargetDependency */,
+			);
+			name = YuScrollViewTests;
+			productName = YuScrollViewTests;
+			productReference = 3F870E5A24D41CC200100835 /* YuScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F870E6424D41CC200100835 /* YuScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F870E7424D41CC200100835 /* Build configuration list for PBXNativeTarget "YuScrollViewUITests" */;
+			buildPhases = (
+				3F870E6124D41CC200100835 /* Sources */,
+				3F870E6224D41CC200100835 /* Frameworks */,
+				3F870E6324D41CC200100835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F870E6724D41CC200100835 /* PBXTargetDependency */,
+			);
+			name = YuScrollViewUITests;
+			productName = YuScrollViewUITests;
+			productReference = 3F870E6524D41CC200100835 /* YuScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F870E3C24D41CC100100835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = yangyu;
+				TargetAttributes = {
+					3F870E4324D41CC100100835 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					3F870E5924D41CC200100835 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3F870E4324D41CC100100835;
+					};
+					3F870E6424D41CC200100835 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3F870E4324D41CC100100835;
+					};
+				};
+			};
+			buildConfigurationList = 3F870E3F24D41CC100100835 /* Build configuration list for PBXProject "YuScrollView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F870E3B24D41CC100100835;
+			productRefGroup = 3F870E4524D41CC100100835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F870E4324D41CC100100835 /* YuScrollView */,
+				3F870E5924D41CC200100835 /* YuScrollViewTests */,
+				3F870E6424D41CC200100835 /* YuScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F870E4224D41CC100100835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F870E5424D41CC200100835 /* LaunchScreen.storyboard in Resources */,
+				3F870E5124D41CC200100835 /* Assets.xcassets in Resources */,
+				3F870E4F24D41CC100100835 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F870E5824D41CC200100835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F870E6324D41CC200100835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F870E4024D41CC100100835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F870E4C24D41CC100100835 /* ViewController.swift in Sources */,
+				3F870E7824D41CDB00100835 /* YuScrollView.swift in Sources */,
+				3F870E4824D41CC100100835 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F870E5624D41CC200100835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F870E5F24D41CC200100835 /* YuScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F870E6124D41CC200100835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F870E6A24D41CC200100835 /* YuScrollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F870E5C24D41CC200100835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F870E4324D41CC100100835 /* YuScrollView */;
+			targetProxy = 3F870E5B24D41CC200100835 /* PBXContainerItemProxy */;
+		};
+		3F870E6724D41CC200100835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F870E4324D41CC100100835 /* YuScrollView */;
+			targetProxy = 3F870E6624D41CC200100835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F870E4D24D41CC100100835 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F870E4E24D41CC100100835 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F870E5224D41CC200100835 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F870E5324D41CC200100835 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F870E6C24D41CC200100835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F870E6D24D41CC200100835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F870E6F24D41CC200100835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YuScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.100tal.yach.YuScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F870E7024D41CC200100835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YuScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.100tal.yach.YuScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F870E7224D41CC200100835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YuScrollViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.100tal.yach.YuScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuScrollView.app/YuScrollView";
+			};
+			name = Debug;
+		};
+		3F870E7324D41CC200100835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YuScrollViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.100tal.yach.YuScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuScrollView.app/YuScrollView";
+			};
+			name = Release;
+		};
+		3F870E7524D41CC200100835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YuScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.100tal.yach.YuScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuScrollView;
+			};
+			name = Debug;
+		};
+		3F870E7624D41CC200100835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YuScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.100tal.yach.YuScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F870E3F24D41CC100100835 /* Build configuration list for PBXProject "YuScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F870E6C24D41CC200100835 /* Debug */,
+				3F870E6D24D41CC200100835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F870E6E24D41CC200100835 /* Build configuration list for PBXNativeTarget "YuScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F870E6F24D41CC200100835 /* Debug */,
+				3F870E7024D41CC200100835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F870E7124D41CC200100835 /* Build configuration list for PBXNativeTarget "YuScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F870E7224D41CC200100835 /* Debug */,
+				3F870E7324D41CC200100835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F870E7424D41CC200100835 /* Build configuration list for PBXNativeTarget "YuScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F870E7524D41CC200100835 /* Debug */,
+				3F870E7624D41CC200100835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F870E3C24D41CC100100835 /* Project object */;
+}
